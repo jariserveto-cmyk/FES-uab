@@ -1,3 +1,4 @@
+
 # Exercici 1
 # Imprimeix el teu nom i cognom a la consola
 print("Jari Serveto")
@@ -10,17 +11,13 @@ print("Python","és","divertit",sep = "-")
 print(15+27)
 # Exercici 1
 # Imprimeix el tipus del número 25
-
-
 print(type(25))
 # Exercici 2
 # Imprimeix el tipus del text "Hola món"
-
-
 print(type("Hola mon"))
 # Exercici 3
 # Imprimeix el tipus del resultat de la comparació 10 > 5
-print(type(10>5))print(type(10>5))
+print(type(10>5))
 
 # Exercici 1
 # Demana a l'usuari quants paquets ha rebut un encaminador. Converteix el valor
@@ -35,3 +32,17 @@ print(f"Total de paquets:{total_paquets}")
 velocitat_connexio = float(input("Velocitat de la connexio en mbps:"))
 velocitat_segon = velocitat_connexio / 8
 print(f"Velocitat per segon:{velocitat_segon.2f}MB/s")
+# Exercici 1
+# Crea variables per desar el nom d'un encaminador, la seva ubicació,
+# el nombre de ports i si està encès. Mostra les dades en una frase
+# utilitzant una f-string.
+encaminador_nom = "RouterX"
+encaminador_ubicacio = "Sala de Servidors"
+encaminador_ports = 24
+encaminador_ences = True
+print(f"El nom es {encaminador_nom},la ubicacio es {encaminador_ubicacio},hi ha {encaminador_ports} ports i esta {encaminador_ences}")
+# Exercici 2
+# Crea variables per desar els GB inclosos en un pla de dades mòbils
+# i els GB consumits. Calcula quants GB queden i mostra el resultat.
+# Després, actualitza el consum amb un valor nou i torna a calcular
+# quants GB queden.
