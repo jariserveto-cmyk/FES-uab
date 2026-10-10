@@ -31,7 +31,7 @@ print(f"Total de paquets:{total_paquets}")
 # dividint-la per 8. Mostra el resultat.
 velocitat_connexio = float(input("Velocitat de la connexio en mbps:"))
 velocitat_segon = velocitat_connexio / 8
-print(f"Velocitat per segon:{velocitat_segon.2f}MB/s")
+print(f"Velocitat per segon:{velocitat_segon}MB/s")
 # Exercici 1
 # Crea variables per desar el nom d'un encaminador, la seva ubicació,
 # el nombre de ports i si està encès. Mostra les dades en una frase
@@ -45,4 +45,11 @@ print(f"El nom es {encaminador_nom},la ubicacio es {encaminador_ubicacio},hi ha 
 # Crea variables per desar els GB inclosos en un pla de dades mòbils
 # i els GB consumits. Calcula quants GB queden i mostra el resultat.
 # Després, actualitza el consum amb un valor nou i torna a calcular
-# quants GB queden.
+# quants GB queden
+gb_inclosos = 15
+gb_consumits = 10
+gb_restants = gb_inclosos - gb_consumits 
+print(f"{gb_restants}")
+gb_consumits = 12
+gb_restants = gb_inclosos - gb_consumits 
+print(f"{gb_restants}")
