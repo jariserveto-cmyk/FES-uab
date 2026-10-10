@@ -1,4 +1,5 @@
 #Exercicis tema 1
+#Exercicis print
 # Exercici 1
 # Imprimeix el teu nom i cognom a la consola
 print("Jari Serveto")
@@ -9,6 +10,8 @@ print("Python","és","divertit",sep = "-")
 # Exercici 3
 # Imprimeix el resultat de la suma 15 + 27
 print(15+27)
+
+#Exercicis types
 # Exercici 1
 # Imprimeix el tipus del número 25
 print(type(25))
@@ -19,6 +22,7 @@ print(type("Hola mon"))
 # Imprimeix el tipus del resultat de la comparació 10 > 5
 print(type(10>5))
 
+# Exercicis cast
 # Exercici 1
 # Demana a l'usuari quants paquets ha rebut un encaminador. Converteix el valor
 # introduït a un nombre enter, suma-hi 1200 paquets i mostra el total.
@@ -32,6 +36,8 @@ print(f"Total de paquets:{total_paquets}")
 velocitat_connexio = float(input("Velocitat de la connexio en mbps:"))
 velocitat_segon = velocitat_connexio / 8
 print(f"Velocitat per segon:{velocitat_segon}MB/s")
+
+#Exercicis variables 
 # Exercici 1
 # Crea variables per desar el nom d'un encaminador, la seva ubicació,
 # el nombre de ports i si està encès. Mostra les dades en una frase
@@ -53,6 +59,8 @@ print(f"{gb_restants}")
 gb_consumits = 12
 gb_restants = gb_inclosos - gb_consumits 
 print(f"{gb_restants}")
+
+#Exercicis input
 # Exercici 1
 # Demana el nom d'un tècnic i el nom de la xarxa que està instal·lant.
 # Després, mostra un missatge amb aquesta informació.
