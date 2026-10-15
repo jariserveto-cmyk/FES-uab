@@ -26,7 +26,7 @@ print(type(10>5))
 # Exercici 1
 # Demana a l'usuari quants paquets ha rebut un encaminador. Converteix el valor
 # introduït a un nombre enter, suma-hi 1200 paquets i mostra el total.
-numero_paquets = int(input("Numero de paquets rebuts pel encaminador"))
+numero_paquets = int(input("Numero de paquets rebuts pel encaminador:"))
 total_paquets = numero_paquets + 1200
 print(f"Total de paquets:{total_paquets}")
 # Exercici 2
@@ -64,22 +64,22 @@ print(f"{gb_restants}")
 # Exercici 1
 # Demana el nom d'un tècnic i el nom de la xarxa que està instal·lant.
 # Després, mostra un missatge amb aquesta informació.
-tecnic,xarxa = input("Nom tecinc: \nNom de la xarxa:").split()
-print(f"Nom del tecnic es {tecnic},i de la xarxa{xarxa}")
+tecnic,xarxa = input("Nom tecinc:"),input("Nom de la xarxa:")
+print(f"Nom del tecnic es {tecnic},i de la xarxa {xarxa}")
 # Exercici 2
 # Demana la longitud d'un enllaç de fibra en quilòmetres i la velocitat de transmissió
 # en Gbps. Mostra quants segons caldrien per transmetre 1 GB de dades.
 # Suposa que 1 GB = 8 Gb i que la velocitat es manté constant.
-fibra = float(input("Longitud de l'enllaç en quilometres"))
-velocitat = float(input("I la seva velocitat"))
+fibra = float(input("Longitud de l'enllaç en quilometres:"))
+velocitat = float(input("I la seva velocitat:"))
 temps = 8/velocitat
 print(f"{temps}")
 # Exercici 3
 # Demana el nombre d'hores de feina i el preu per hora d'una instal·lació de xarxa.
 # Demana també el preu del material.
 # Mostra el cost total de la instal·lació.
-hores=float(input("Hores de feina"))
-preu_per_hora=float(input("Preu per hora de la instalacio"))
-preu_material=float(input("Preu del material"))
+hores=float(input("Hores de feina:"))
+preu_per_hora=float(input("Preu per hora de la instalacio:"))
+preu_material=float(input("Preu del material:"))
 cost_total = preu_material + (hores*preu_per_hora)
 print(f"{cost_total}")
