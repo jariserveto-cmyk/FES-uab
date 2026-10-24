@@ -16,23 +16,51 @@
 # Exercici 2: Calculadora senzilla
 # Demana a l'usuari dos nombres i una operació (+, -, *, /).
 # Fes l'operació i mostra'n el resultat (gestiona la divisió per zero).
-num1,num2 = input("Entra dos nombres:").split()
-num1 = float(num1)
-num2 = float(num2)
-operacio = input("I una operacio(+,-,*,/):")
-if num2 == 0 and operacio == '/' :
-    print("Error al dividir per 0")
-elif operacio == '+':
-    suma = num1 + num2
-    print(suma)
-elif operacio == '-':
-    resta =num1 - num2
-    print(resta)
-elif operacio == '*':
-    producte= num1 * num2
-    print(producte)
-elif operacio == '/':
-    divisio= num1 / num2
-    print(divisio)
-else:
-    print('Operacio no trobada')    
+#num1,num2 = input("Entra dos nombres:").split()
+#num1 = float(num1)
+#num2 = float(num2)
+#operacio = input("I una operacio(+,-,*,/):")
+#if num2 == 0 and operacio == '/' :
+ #   print("Error al dividir per 0")
+#elif operacio == '+':
+ #   suma = num1 + num2
+  #  print(suma)
+#elif operacio == '-':
+ #   resta =num1 - num2
+  #  print(resta)
+#elif operacio == '*':
+ #   producte= num1 * num2
+  #  print(producte)
+#elif operacio == '/':
+ #   divisio= num1 / num2
+  #  print(divisio)
+#else:
+ #   print('Operacio no trobada')    
+
+###
+# EXERCICIS
+###
+
+# Exercici 1: Comparar nombres
+# Donats els nombres:
+# nombre_a = 8
+# nombre_b = 5
+# Mostra el resultat de comparar si nombre_a és més gran, més petit o igual
+# que nombre_b.
+nombre_a =8
+nombre_b = 5
+print(nombre_a>nombre_b)
+print(nombre_a<nombre_b)
+print(nombre_a==nombre_b)
+
+# Exercici 2: Comparar cadenes de text
+# Donades les cadenes:
+# paraula_a = "Hola"
+# paraula_b = "hola"
+# Mostra si són iguals i si paraula_a és igual a "Hola".
+# Observa si Python distingeix entre majúscules i minúscules.
+paraula_a = "Hola"
+paraula_b = "hola"
+print(paraula_a== paraula_b)
+print(paraula_a=="Hola")
+#Python si que ho distingueix
