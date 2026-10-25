@@ -89,6 +89,17 @@ print(comptador)
 # Demana a l'usuari quants termes de la seqüència de Fibonacci vol veure.
 # Imprimeix aquest nombre de termes fent servir un bucle while.
 # La seqüència comença per 0 i 1; cada terme següent és la suma dels dos anteriors.
+fibonacci = int(input('Quants nombres de finonaci vols veure'))
+comptador = 0
+anterior = 0
+seguent = 1
+while comptador <= fibonacci:
+    print(anterior)
+    suma = anterior + seguent
+    seguent = suma
+    anterior = seguent
+    comptador +=1
+
 
 # Exercici 10: Joc d'endevinar el número
 # El número secret és el 7.
