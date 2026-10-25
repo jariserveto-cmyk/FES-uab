@@ -36,7 +36,17 @@
   #  print(divisio)
 #else:
  #   print('Operacio no trobada')    
-
+# Exercici 3: Any de traspàs
+# Demana a l'usuari que introdueixi un any i determina si és de traspàs.
+# Un any és de traspàs si és divisible per 4, excepte si és divisible per 100
+# però no per 400.
+any = int(input('introduiex un any'))
+if any%4 != 0:
+    print('No es de traspas')
+elif any%100 == 0 and any%400 != 0:
+    print('No es de traspas')
+else:
+    print('Es de traspas')        
 ###
 # EXERCICIS
 ###
