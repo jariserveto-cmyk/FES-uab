@@ -59,17 +59,32 @@ while comptador <11:
 # Demana a l'usuari que introdueixi un número enter positiu N.
 # Imprimeix tots els números primers menors o iguals que N fent servir un bucle while.
 # Un número és primer si només és divisible per 1 i per ell mateix.
+#numero = int(input('Introdueix un numero enter positiu:'))
+#while numero > 0:
+ #   if 
 
 # Exercici 7: Suma fins al zero
 # Demana a l'usuari que introdueixi números enters.
 # Ves sumant els números introduïts fins que l'usuari introdueixi el 0.
 # Al final, imprimeix la suma total. El 0 només serveix per acabar i no s'ha de sumar.
-
+suma =0
+while True:
+    numero = int(input('Introdueix un numero:'))
+    if numero == 0:
+        break
+    else:
+        suma += numero
+print(suma)
 # Exercici 8: Comptar les xifres d'un número
 # Demana a l'usuari que introdueixi un número enter positiu.
 # Comptabilitza quantes xifres té fent servir un bucle while.
 # Finalment, imprimeix el nombre de xifres.
-
+numero = int(input('Introdueix un numero:'))
+comptador = 0
+while numero >0:
+    numero //= 10
+    comptador += 1
+print(comptador)
 # Exercici 9: Seqüència de Fibonacci
 # Demana a l'usuari quants termes de la seqüència de Fibonacci vol veure.
 # Imprimeix aquest nombre de termes fent servir un bucle while.
