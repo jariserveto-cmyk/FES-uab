@@ -91,13 +91,19 @@ print(llista_b)
 # Fes servir slicing i del per eliminar els elements des de l'índex 2 fins al 5
 # (sense incloure el 5).
 # Imprimeix la llista resultant.
-
+llista = [1,2,3,4,5,6,7,8,9,10]
+del llista[2:5]
+print(llista)   
 # Exercici 4: Ordenar i comptar
 # Crea una llista amb els nombres següents: [5, 2, 8, 1, 9, 4, 2].
 # Ordena la llista de manera ascendent fent servir sort().
 # Compta quantes vegades apareix el nombre 2 a la llista fent servir count().
 # Comprova si el nombre 7 és a la llista fent servir in.
-
+llista = [5,2,8,1,9,4,2]
+llista.sort()
+v2 = llista.count(2)
+v7 = bool(7 in llista)
+print(llista,v2,v7)
 # Exercici 5: Còpia i referència
 # Crea una llista anomenada original amb els nombres [1, 2, 3].
 # Crea'n una còpia anomenada copia_1 fent servir slicing.
@@ -109,6 +115,3 @@ print(llista_b)
 # Exercici 6: Ordenar cadenes sense distingir entre majúscules i minúscules
 # Crea una llista amb les cadenes següents: ["Poma", "pera", "PLÀTAN", "taronja"].
 # Ordena la llista sense distingir entre majúscules i minúscules.
-llista=[1,2,3,4]
-llista.insert(1,9)
-print(llista)
